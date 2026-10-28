@@ -28,5 +28,19 @@ window.ARTICLES = [
 <p><strong>Kamil Giżyński</strong> znany również jako <strong>Kumi Gaming</strong>, <strong>Kamil G</strong> – Wychowawca najlepszej klasy w Zespole Szkół Komunikacjii.</p>
 <h2>O nim</h2>
 <p>Z wykształcenia Matematyk i Informatyk blablabla trzeba pododawac</p>`
+  },
+  {
+    slug: "dzieciol",
+    title: "Sprawa dzięcioła",
+    tags: ["dzieciol"],
+    summary: "Crashout Jerzego",
+    info: [
+      ["Kategoria", "Afera"],
+      ["Główne postacie", "Kot Jerzego, Dzięcioł, Jerzy, Filip"],
+    ],
+    html: `
+<p><strong>Sprawa dzięcioła</strong> - bestialskie zabójstwo ściśle chronionego dzięcioła przez kota Jerzego.</p>
+<h2>Historia</h2
+<p></p>`
   }
 ];
