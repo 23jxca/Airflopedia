@@ -71,6 +71,6 @@ dwór</em></p>`
 Twórca nieszablonowej muzyki z pogranicza undergroundu, rapu i wielu brzmień. Tworzył w zespołach RedRap, Versooz, Elizjum, Nobel Za Freestyle, Porywacze Karawan. Autor ponad 20 alumów zespołowych i solowych. Nominowany przez Kurier Lubelski w plebiscycie Osobowość Roku 2025 za "tworzenie muzyki, która wymyka się modom i trendom, a jednocześnie trafia w samo sedno - łącząc filozofię, poezję i uliczną prawdę." w kategorii Kultura.<br><br>
 
 ZERO AUTOCENZURY I UGRZECZNIANIA TEKSTÓW NA POTRZEBY RYNKU. TYLKO NIEZALEŻNY ARTYZM.</em></p>
-<p>Tak Opat opisuje samego siebie na swoim kanale yt.</p>`
+<p>Tak Opat opisuje samego siebie na swoim <a href="https://www.youtube.com/@OPATHipHopHipisTV">kanale youtube</a>.</p>`
   },
 ];
