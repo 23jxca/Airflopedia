@@ -20,7 +20,7 @@ window.ARTICLES = [
     tags: ["KamilG"],
     summary: "Wychowawca klasy",
     info: [
-      ["<img src='kumi.jpg'>"],
+      ["<img src='img/kumi.jpg'>"],
       ["Klasa postaci", "Nauczyciel"],
       ["Imię i nazwisko", "Kamil Giżyński"],
       ["Narodowość", "Polska<img src='img/FlagaPolski32.png'>"]
@@ -58,11 +58,13 @@ dwór</em></p>`
     tags: ["opat"],
     summary: "Raper",
     info: [
+      ["<img src='opat.jpg'>"],
       ["Klasa postaci", "Nauczyciel"],
+      ["Narodowość", "Polska<img src='img/FlagaPolski32.png'>"]
     ],
     html: `
-<p><strong>Opat</strong>, a właściwie <strong>Tobiasz Michalak</strong> – znany również jako: <strong>Hip-Hopowy Manu Chao</strong>, <strong>Pierwszy w Polsce Hip-Hop'owy Hipis</strong>, 
-<strong>liść palmowy</strong>, <strong>Tobiasz Opat Cytrusiński</strong>. Raper, z wykształcenia filozof, tester i nauczyciel przedmiotów zawodowych w Zespole Szkół Komunikacji</p>
+<p><strong>Opat</strong>, a właściwie <strong>Tobiasz Michalak</strong> – znany również jako <strong>Hip-Hopowy Manu Chao</strong>, <strong>Pierwszy w Polsce Hip-Hop'owy Hipis</strong>, 
+<strong>Liść palmowy</strong>, <strong>Tobiasz Opat Cytrusiński</strong> - polski raper, poeta, filozof, tester, nauczyciel przedmiotów zawodowych w Zespole Szkół Komunikacjii pochodzący z Lublina.</p>
 <h2>Opis</h2>
 <p><em>Nazywany przez przyjaciół Hip-Hop'owym Manu Chao pierwszy liść palmowy zarejestrował jako szczeniak w 1997 roku. Jego styl łączy w sobie funkowo-psychorapowe podejście do muzyki z uliczną poezją. 
 
