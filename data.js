@@ -20,7 +20,7 @@ window.ARTICLES = [
     tags: ["KamilG"],
     summary: "Wychowawca klasy",
     info: [
-      ["<img src='kumi.jpg' style='height:400px;width:300px'>"]
+      ["<img src='kumi.jpg'>"],
       ["Klasa postaci", "Nauczyciel"],
       ["Imię i nazwisko", "Kamil Giżyński"],
       ["Narodowość", "Polska<img src='img/FlagaPolski32.png'>"]
@@ -41,7 +41,7 @@ window.ARTICLES = [
     ],
     html: `
 <p><strong>Sprawa dzięcioła</strong> - bestialskie zabójstwo ściśle chronionego dzięcioła przez kota Jerzego.</p>
-<h2>Początek afery</h2
+<h2>Początek afery</h2>
 <p>26 września 2026 roku o godzinie 17:03 czasu środkowoeuropejskiego na grupie klasowej <em>4E Ogłoszenia</em> Jerzy Hempowicz napisał:</p>
 <p><em>Koty to wynalazek szatana</em></p>
 <p>Następnie:</p>
@@ -51,7 +51,7 @@ window.ARTICLES = [
 chronionego dzięcioła bo<br> mimo moich próśb moi<br>
 rodzice go wypuszczają na<br>
 dwór</em></p>`
-  }
+  },
   {
     slug: "opat",
     title: "Opat",
