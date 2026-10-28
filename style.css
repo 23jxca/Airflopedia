@@ -196,3 +196,5 @@ footer {
   color: var(--muted);
   font-size: 0.75rem;
 }
+.infobox .pic { text-align: center; }
+.infobox .pic img { max-width: 100%; height: auto; }
