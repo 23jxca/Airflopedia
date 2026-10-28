@@ -172,17 +172,21 @@
   }
 
   function showArticle(slug) {
-    var a = bySlug[slug];
-    if (!a) return showMissing(slug);
-    setTitle(a.title);
-    var h = "<h1>" + a.title + "</h1>";
-    if (a.info && a.info.length) {
-      h += '<table class="infobox"><caption>' + a.title + "</caption>";
-      a.info.forEach(function (r) { h += "<tr><th>" + r[0] + "</th><td>" + r[1] + "</td></tr>"; });
-      h += "</table>";
-    }
-    view.innerHTML = h + links(a.html);
+  var a = bySlug[slug];
+  if (!a) return showMissing(slug);
+  setTitle(a.title);
+  var h = "<h1>" + a.title + "</h1>";
+  if (a.info && a.info.length) {
+    h += '<table class="infobox"><caption>' + a.title + "</caption>";
+    a.info.forEach(function (r) {
+      h += r.length === 1
+        ? '<tr><td colspan="2" class="pic">' + r[0] + "</td></tr>"
+        : "<tr><th>" + r[0] + "</th><td>" + r[1] + "</td></tr>";
+    });
+    h += "</table>";
   }
+  view.innerHTML = h + links(a.html);
+}
 
   function showResults(q) {
     setTitle("Wyniki: " + q);
