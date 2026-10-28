@@ -64,8 +64,8 @@ dwór</em></p>`
       ["Narodowość", "Polska<img src='img/FlagaPolski32.png' class='flag'>, Jamajska"]
     ],
     html: `
-<p><strong>Opat</strong>, a właściwie <strong>Tobiasz Michalak</strong> – znany również jako <strong>Hip-Hopowy Manu Chao</strong>, <strong>Pierwszy w Polsce Hip-Hop'owy Hipis</strong>, 
-<strong>Liść palmowy</strong>, <strong>Tobiasz Opat Cytrusiński</strong> - polski raper, poeta, filozof, tester i nauczyciel przedmiotów zawodowych w Zespole Szkół Komunikacji pochodzący z Lublina.</p>
+<p><strong>Opat</strong>, a właściwie <strong>Tobiasz Michalak</strong> - znany również jako <strong>Hip-Hopowy Manu Chao</strong>, <strong>Pierwszy w Polsce Hip-Hop'owy Hipis</strong>, 
+<strong>Liść palmowy</strong>, <strong>Tobiasz Opat Cytrusiński</strong> to polsko-jamajski raper, poeta, filozof, tester i nauczyciel przedmiotów zawodowych w Zespole Szkół Komunikacji pochodzący z Lublina. Choć urodzony w Polsce to duszę ma prawdziwie rastafariańską.</p>
 <h2>Opis</h2>
 <p><em>Nazywany przez przyjaciół Hip-Hop'owym Manu Chao pierwszy liść palmowy zarejestrował jako szczeniak w 1997 roku. Jego styl łączy w sobie funkowo-psychorapowe podejście do muzyki z uliczną poezją. <br><br>
 
