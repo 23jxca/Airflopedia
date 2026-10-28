@@ -41,10 +41,10 @@ window.ARTICLES = [
     html: `
 <p><strong>Sprawa dzięcioła</strong> - bestialskie zabójstwo ściśle chronionego dzięcioła przez kota Jerzego.</p>
 <h2>Początek afery</h2
-<p>26 września 2026 roku o godzinie 17:03 czasu środkowoeuropejskiego na grupie klasowej 4E Ogłoszenia Jerzy Hempowicz napisał:</p>
+<p>26 września 2026 roku o godzinie 17:03 czasu środkowoeuropejskiego na grupie klasowej <em>4E Ogłoszenia</em> Jerzy Hempowicz napisał:</p>
 <p><em>Koty to wynalazek szatana</em></p>
 <p>Następnie:</p>
-<p><em>Skurwiele jebane<em/></p>
+<p><em>Skurwiele jebane</em></p>
 <p>Po czym kontynuował:</p>
 <p><em>Kot mój zabił ściśle<br>
 chronionego dzięcioła bo<br> mimo moich próśb moi<br>
