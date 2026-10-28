@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Airflopedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#/">Airflopedia</a>
+  <form class="search" id="search-form" role="search" autocomplete="off">
+    <input id="q" type="search" placeholder="Szukaj w Airflopedii" aria-label="Szukaj"
+           role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="suggest">
+    <ul id="suggest" role="listbox" hidden></ul>
+  </form>
+</header>
+
+<main id="view"></main>
+
+<footer>Witaj na Airflopedii</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

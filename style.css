@@ -1,0 +1,198 @@
+:root {
+  --bg: #f6f6f6;
+  --page: #ffffff;
+  --text: #202122;
+  --muted: #54595d;
+  --link: #0645ad;
+  --border: #a2a9b1;
+  --soft: #f8f9fa;
+  --head: #eaecf0;
+  --serif: Georgia, "Linux Libertine", "Times New Roman", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #101418;
+    --page: #1b1f23;
+    --text: #eaecf0;
+    --muted: #a2a9b1;
+    --link: #6b9bf0;
+    --border: #54595d;
+    --soft: #222629;
+    --head: #2a2f35;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Nagłówek */
+.top {
+  background: var(--page);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem 1rem;
+}
+.brand {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  color: var(--text);
+  white-space: nowrap;
+}
+/* Wyszukiwarka z podpowiedziami */
+.search {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+}
+.search input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--soft);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+}
+#suggest {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-height: 60vh;
+  overflow-y: auto;
+  background: var(--page);
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+#suggest[hidden] { display: none; }
+#suggest li {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  border-bottom: 1px solid var(--head);
+}
+#suggest li:last-child { border-bottom: 0; }
+#suggest li.on, #suggest li:hover { background: var(--head); }
+#suggest .t { display: block; }
+#suggest .d {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#suggest mark { background: none; color: inherit; font-weight: 700; }
+#suggest li.none { color: var(--muted); cursor: default; font-size: 0.9rem; }
+
+/* Treść */
+main {
+  max-width: 62rem;
+  margin: 0 auto;
+  background: var(--page);
+  padding: 0 clamp(1rem, 4vw, 2rem) 2rem;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.25;
+  border-bottom: 1px solid var(--border);
+}
+h1 { font-size: clamp(1.6rem, 5vw, 2rem); margin: 1.2rem 0 0.6rem; }
+h2 { font-size: clamp(1.25rem, 3.5vw, 1.5rem); margin: 1.6rem 0 0.6rem; }
+
+p { margin: 0.6rem 0 0.9rem; }
+.note { color: var(--muted); font-size: 0.85rem; }
+
+/* Infobox: na wąskim ekranie pełna szerokość, na szerokim pływa w prawo */
+.infobox {
+  width: 100%;
+  margin: 0.8rem 0 1rem;
+  border: 1px solid var(--border);
+  background: var(--soft);
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.infobox caption {
+  font-weight: 700;
+  padding: 0.5rem;
+  background: var(--head);
+  border: 1px solid var(--border);
+  border-bottom: 0;
+}
+.infobox th, .infobox td {
+  padding: 0.35rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid var(--border);
+}
+.infobox th { width: 38%; }
+
+@media (min-width: 700px) {
+  .infobox {
+    float: right;
+    width: 18rem;
+    margin: 0.4rem 0 1rem 1.5rem;
+  }
+}
+
+/* Spis treści */
+.toc {
+  display: inline-block;
+  min-width: min(100%, 16rem);
+  border: 1px solid var(--border);
+  background: var(--soft);
+  padding: 0.6rem 1rem;
+  margin: 0.6rem 0;
+  font-size: 0.9rem;
+}
+.toc strong { display: block; text-align: center; }
+.toc ol { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+
+/* Tabela: przewija się w poziomie zamiast rozsadzać stronę */
+.scroll { overflow-x: auto; margin: 0.8rem 0; }
+.scroll table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+.scroll th, .scroll td {
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.7rem;
+  text-align: left;
+}
+.scroll th { background: var(--head); }
+
+ul, ol { padding-left: 1.4rem; }
+li { margin-bottom: 0.25rem; }
+
+.refs { font-size: 0.85rem; }
+
+footer {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 1rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
