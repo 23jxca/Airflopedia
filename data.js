@@ -12,7 +12,7 @@ window.ARTICLES = [
     html: `
 <p><strong>Patyczek</strong> (l.mn. <em>patyczki</em>) – Historia Matuszli złą sławą owiana.</p>
 <h2>Geneza</h2>
-<p>Matuszla opowiedział historię o patyczku i jest ona na tyle upokarzająca dla Matuszli, że nie można jej nikomu więcej odpowiedzieć, szczególnie [[kumi|Kamilowi Giżyńskiemu]].</p>`
+<p>Matuszla opowiedział historię o patyczku i jest ona na tyle upokarzająca dla Matuszli, że nie można jej nikomu więcej opowiedzieć, szczególnie [[kumi|Kamilowi Giżyńskiemu]].</p>`
   },
   {
     slug: "kumi",
