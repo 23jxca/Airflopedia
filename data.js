@@ -20,6 +20,7 @@ window.ARTICLES = [
     tags: ["KamilG"],
     summary: "Wychowawca klasy",
     info: [
+      ["<img src='kumi.jpg' style='height:400px;width:300px'>"]
       ["Klasa postaci", "Nauczyciel"],
       ["Imię i nazwisko", "Kamil Giżyński"],
       ["Narodowość", "Polska<img src='img/FlagaPolski32.png'>"]
