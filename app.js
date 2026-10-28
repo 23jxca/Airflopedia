@@ -164,7 +164,6 @@
       return a.title.localeCompare(b.title, "pl");
     });
     var h = "<h1>Strona główna</h1>" +
-      '<p class="note">Z Wolnopedii, wolnej encyklopedii</p>' +
       "<p>Witaj w Airflopedii. Zacznij pisać w polu wyszukiwania, aby znaleźć artykuł albo wybierz z listy.</p><ul>";
     items.forEach(function (a) {
       h += '<li><a href="#/a/' + a.slug + '">' + a.title + "</a> – " + a.summary + "</li>";
