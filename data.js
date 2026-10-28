@@ -23,10 +23,10 @@ window.ARTICLES = [
       ["<img src='img/kumi.jpg'>"],
       ["Klasa postaci", "Nauczyciel"],
       ["Imię i nazwisko", "Kamil Giżyński"],
-      ["Narodowość", "Polska<img src='img/FlagaPolski32.png'>"]
+      ["Narodowość", "Polska<img src='img/FlagaPolski32.png' class='flag'>"]
     ],
     html: `
-<p><strong>Kamil Giżyński</strong> znany również jako <strong>Kumi Gaming</strong>, <strong>Kamil G</strong> – Wychowawca najlepszej klasy w Zespole Szkół Komunikacjii.</p>
+<p><strong>Kamil Giżyński</strong> znany również jako <strong>Kumi Gaming</strong>, <strong>Kamil G</strong> – Wychowawca najlepszej klasy w Zespole Szkół Komunikacji.</p>
 <h2>O nim</h2>
 <p>Z wykształcenia Matematyk i Informatyk blablabla trzeba pododawac</p>`
   },
@@ -58,17 +58,17 @@ dwór</em></p>`
     tags: ["opat"],
     summary: "Raper",
     info: [
-      ["<img src='img/opat.jpg'>"],
+      ["<img src='img/opat.jpg'> alt='opat'"],
       ["Klasa postaci", "Nauczyciel"],
-      ["Narodowość", "Polska<img src='img/FlagaPolski32.png'>"]
+      ["Narodowość", "Polska<img src='img/FlagaPolski32.png' class='flag'>"]
     ],
     html: `
 <p><strong>Opat</strong>, a właściwie <strong>Tobiasz Michalak</strong> – znany również jako <strong>Hip-Hopowy Manu Chao</strong>, <strong>Pierwszy w Polsce Hip-Hop'owy Hipis</strong>, 
-<strong>Liść palmowy</strong>, <strong>Tobiasz Opat Cytrusiński</strong> - polski raper, poeta, filozof, tester i nauczyciel przedmiotów zawodowych w Zespole Szkół Komunikacjii pochodzący z Lublina.</p>
+<strong>Liść palmowy</strong>, <strong>Tobiasz Opat Cytrusiński</strong> - polski raper, poeta, filozof, tester i nauczyciel przedmiotów zawodowych w Zespole Szkół Komunikacji pochodzący z Lublina.</p>
 <h2>Opis</h2>
-<p><em>Nazywany przez przyjaciół Hip-Hop'owym Manu Chao pierwszy liść palmowy zarejestrował jako szczeniak w 1997 roku. Jego styl łączy w sobie funkowo-psychorapowe podejście do muzyki z uliczną poezją. 
+<p><em>Nazywany przez przyjaciół Hip-Hop'owym Manu Chao pierwszy liść palmowy zarejestrował jako szczeniak w 1997 roku. Jego styl łączy w sobie funkowo-psychorapowe podejście do muzyki z uliczną poezją. <br>
 
-Twórca nieszablonowej muzyki z pogranicza undergroundu, rapu i wielu brzmień. Tworzył w zespołach RedRap, Versooz, Elizjum, Nobel Za Freestyle, Porywacze Karawan. Autor ponad 20 alumów zespołowych i solowych. Nominowany przez Kurier Lubelski w plebiscycie Osobowość Roku 2025 za "tworzenie muzyki, która wymyka się modom i trendom, a jednocześnie trafia w samo sedno - łącząc filozofię, poezję i uliczną prawdę." w kategorii Kultura.
+Twórca nieszablonowej muzyki z pogranicza undergroundu, rapu i wielu brzmień. Tworzył w zespołach RedRap, Versooz, Elizjum, Nobel Za Freestyle, Porywacze Karawan. Autor ponad 20 alumów zespołowych i solowych. Nominowany przez Kurier Lubelski w plebiscycie Osobowość Roku 2025 za "tworzenie muzyki, która wymyka się modom i trendom, a jednocześnie trafia w samo sedno - łącząc filozofię, poezję i uliczną prawdę." w kategorii Kultura.<br>
 
 ZERO AUTOCENZURY I UGRZECZNIANIA TEKSTÓW NA POTRZEBY RYNKU. TYLKO NIEZALEŻNY ARTYZM.</em></p>
 <p>Tak Opat opisuje samego siebie na swoim kanale yt.</p>`
