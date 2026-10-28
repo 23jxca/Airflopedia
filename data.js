@@ -16,17 +16,17 @@ window.ARTICLES = [
   },
   {
     slug: "kumi",
-    title: "Kamil Giżyński",
+    title: "Kumi",
     tags: ["KamilG"],
     summary: "Wychowawca klasy",
     info: [
       ["<img src='img/kumi.jpg'>"],
-      ["Klasa postaci", "Nauczyciel"],
       ["Imię i nazwisko", "Kamil Giżyński"],
+      ["Klasa postaci", "Nauczyciel"],
       ["Narodowość", "Polska<img src='img/FlagaPolski32.png' class='flag'>"]
     ],
     html: `
-<p><strong>Kamil Giżyński</strong> znany również jako <strong>Kumi Gaming</strong>, <strong>Kamil G</strong> – Wychowawca najlepszej klasy w Zespole Szkół Komunikacji.</p>
+<p><strong>Kumi</strong>, a właściwie Kamil Giżyński - znany również jako <strong>Kumi Gaming</strong>, <strong>Kamil G</strong> – Wychowawca najlepszej klasy w Zespole Szkół Komunikacji.</p>
 <h2>O nim</h2>
 <p>Z wykształcenia Matematyk i Informatyk blablabla trzeba pododawac</p>`
   },
@@ -59,8 +59,9 @@ dwór</em></p>`
     summary: "Raper",
     info: [
       ["<img src='img/opat.jpg' alt='opat'>"],
+      ["Imię i nazwisko", "Tobiasz Michalak"],
       ["Klasa postaci", "Nauczyciel"],
-      ["Narodowość", "Polska<img src='img/FlagaPolski32.png' class='flag'>"]
+      ["Narodowość", "Polska<img src='img/FlagaPolski32.png' class='flag'>, Jamajska"]
     ],
     html: `
 <p><strong>Opat</strong>, a właściwie <strong>Tobiasz Michalak</strong> – znany również jako <strong>Hip-Hopowy Manu Chao</strong>, <strong>Pierwszy w Polsce Hip-Hop'owy Hipis</strong>, 
