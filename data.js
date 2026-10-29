@@ -74,4 +74,21 @@ Twórca nieszablonowej muzyki z pogranicza undergroundu, rapu i wielu brzmień. 
 ZERO AUTOCENZURY I UGRZECZNIANIA TEKSTÓW NA POTRZEBY RYNKU. TYLKO NIEZALEŻNY ARTYZM.</em></p>
 <p>Tak Opat opisuje samego siebie na swoim <a href="https://www.youtube.com/@OPATHipHopHipisTV">kanale youtube</a>.</p>`
   },
+  {
+    slug: "milosc",
+    title: "Miłość jest jak wrzód na dupie",
+    tags: ["milosc"],
+    summary: "Notatka Jerzego",
+    info: [
+      ["<img src='img/milosc.JPG' alt='milosc'>"],
+      ["Screenshot notatki"]
+    ],
+    html: `
+<p><strong>Miłość jest jak wrzód na dupie</strong> - to cytat z notatki Jerzego na Facebooku.</p>
+<h2>Analiza</h2>
+<p><em>Miłość jest jak wrzód na dupie</em></p>
+<p>to wulgarna metafora przedstawiająca miłość jako uczucie uciążliwe, 
+bolesne i trudne do pozbycia się. Wskazuje na to, że miłość, zamiast dawać szczęście, może powodować cierpienie, frustrację i komplikować życie. Ma charakter ironiczny i antyromantyczny.</p>`
+  },
+  
 ];
