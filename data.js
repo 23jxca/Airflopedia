@@ -61,7 +61,7 @@ dwór</em></p>`
       ["<img src='img/opat.jpg' alt='opat'>"],
       ["Imię i nazwisko", "Tobiasz Michalak"],
       ["Klasa postaci", "Nauczyciel"],
-      ["Narodowość", "Polska<img src='img/FlagaPolski32.png' class='flag'>, Jamajska"]
+      ["Narodowość", "Polska<img src='img/FlagaPolski32.png' class='flag'>, Jamajska<img src='img/jamajka32.png' class='flag'>"]
     ],
     html: `
 <p><strong>Opat</strong>, a właściwie <strong>Tobiasz Michalak</strong> - znany również jako <strong>Hip-Hopowy Manu Chao</strong>, <strong>Pierwszy w Polsce Hip-Hop'owy Hipis</strong>, 
