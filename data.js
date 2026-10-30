@@ -64,8 +64,8 @@ dwór</em></p>`
       ["Narodowość", "Polska<img src='img/FlagaPolski32.png' class='class'>, Jamajska<img src='img/jamajka32.png' class='flag'>"]
     ],
     html: `
-<p><strong>Opat</strong>, a właściwie <strong>Tobiasz Michalak</strong> - znany również jako <strong>Hip-Hopowy Manu Chao</strong>, <strong>Pierwszy w Polsce Hip-Hop'owy Hipis</strong>, 
-<strong>Liść palmowy</strong>, <strong>Tobiasz Opat Cytrusiński</strong> to polsko-jamajski raper, poeta, filozof, tester i nauczyciel przedmiotów zawodowych w Zespole Szkół Komunikacji pochodzący z Lublina. Choć urodzony w Polsce to duszę ma prawdziwie rastafariańską.</p>
+<p><strong>Opat</strong>, a właściwie <strong>Tobiasz Michalak</strong>, znany również jako <strong>Hip-Hopowy Manu Chao</strong>, <strong>Pierwszy w Polsce Hip-Hop'owy Hipis</strong>, 
+<strong>Liść palmowy</strong>, <strong>Tobiasz Opat Cytrusiński</strong> - polsko-jamajski raper, poeta, filozof, tester i nauczyciel przedmiotów zawodowych w Zespole Szkół Komunikacji pochodzący z Lublina. Choć urodzony w Polsce to duszę ma prawdziwie rastafariańską.</p>
 <h2>Opis</h2>
 <p><em>Nazywany przez przyjaciół Hip-Hop'owym Manu Chao pierwszy liść palmowy zarejestrował jako szczeniak w 1997 roku. Jego styl łączy w sobie funkowo-psychorapowe podejście do muzyki z uliczną poezją. <br><br>
 
@@ -89,6 +89,37 @@ ZERO AUTOCENZURY I UGRZECZNIANIA TEKSTÓW NA POTRZEBY RYNKU. TYLKO NIEZALEŻNY A
 <p><em>Miłość jest jak wrzód na dupie</em></p>
 <p>to wulgarna metafora przedstawiająca miłość jako uczucie uciążliwe, 
 bolesne i trudne do pozbycia się. Wskazuje na to, że miłość, zamiast dawać szczęście, może powodować cierpienie, frustrację i komplikować życie. Ma charakter ironiczny i antyromantyczny.</p>`
+  },
+  {
+    slug: "tojestwoda",
+    title: "Zhè shì shuǐ",
+    tags: ["dżyszyszłej","woda","chiński"],
+    summary: "Majcherczakowy mem",
+    info: [
+      
+    ],
+    html: `
+<p><strong>Zhè shì shuǐ</strong> (chiń. upr. 这是水, wym. dzy szy szłej) - oznacza <em>to jest woda</em> i stało się Majcherczakowym memem. Jest często łączone razem z [[szesnascie|tramwajem numer 16]].</p>
+<h2>Przykład użycia</h2>
+<p>Majcherczak mówi:</p>
+<p><em>- A wiedziała pani, że był taki morderca co...</em></p>
+<p>Wtedy można przerwać mówiąc:</p>
+<p><em>- Dobra stary Zhè shì shuǐ 16 arctic monkeys</em></p>`
+  },
+  {
+    slug: "szesnascie",
+    title: "16",
+    tags: ["tramwaj","16"],
+    summary: "Majcherczakowy mem",
+    info: [
+      ["<img src='img/szesnastka.jpg' alt='szesnastka'"],
+      ["Tramwaj numer 16 w naturalnym środowisku"]
+    ],
+    html: `
+<p><strong>16</strong> lub inaczej <strong>szesnastka</strong>, <strong>tramwaj numer 16</strong> - Majcherczakowy mem powstały przez ciągłe, że szesnastka nie przyjechała albo się spóźniła. Często łączone z [[tojestwoda|Zhè shì shuǐ]]</p>
+<h2>Przykład użycia</h2>
+<p>*Michał mówi cokolwiek*</p>
+<p><em>- Dobra stary szesnastka nie przyjechała.</em></p>`
   },
   
 ];
