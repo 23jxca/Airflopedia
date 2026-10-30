@@ -99,7 +99,7 @@ bolesne i trudne do pozbycia się. Wskazuje na to, że miłość, zamiast dawać
       
     ],
     html: `
-<p><strong>Zhè shì shuǐ</strong> (chiń. upr. 这是水, wym. dzy szy szłej) - oznacza <em>to jest woda</em> i stało się Majcherczakowym memem. Jest często łączone razem z [[szesnascie|tramwajem numer 16]].</p>
+<p><strong>Zhè shì shuǐ</strong> (chiń. upr. 这是水, wym. dzy szy szłej) - oznacza <strong><em>to jest woda</em></strong> i stało się Majcherczakowym memem. Jest często łączone razem z [[szesnascie|tramwajem numer 16]].</p>
 <h2>Przykład użycia</h2>
 <p>Majcherczak mówi:</p>
 <p><em>- A wiedziała pani, że był taki morderca co...</em></p>
