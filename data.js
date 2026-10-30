@@ -112,7 +112,7 @@ bolesne i trudne do pozbycia się. Wskazuje na to, że miłość, zamiast dawać
     tags: ["tramwaj","16"],
     summary: "Majcherczakowy mem",
     info: [
-      ["<img src='img/szesnastka.jpg' alt='szesnastka'"],
+      ["<img src='img/szesnastka.png' alt='szesnastka'"],
       ["Tramwaj numer 16 w naturalnym środowisku"]
     ],
     html: `
